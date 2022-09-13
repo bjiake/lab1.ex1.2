@@ -1,0 +1,21 @@
+﻿<Window x:Class="lab1.ex1._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab1.ex1._2"
+        mc:Ignorable="d"
+        Title="Application" Height="304" Width="387" WindowStyle="ToolWindow" ResizeMode="NoResize">
+    <Grid Margin="0,0,10,3">
+        <Label Content="Длина" HorizontalAlignment="Left" Margin="29,14,0,0" VerticalAlignment="Top" Height="37" Width="66" FontSize="20"/>
+        <Label Content="Внешний радиус" HorizontalAlignment="Left" Margin="29,56,0,0" VerticalAlignment="Top" Height="37" Width="169" FontSize="20"/>
+        <Label Content="Внутренний радиус" HorizontalAlignment="Left" Margin="29,98,0,0" VerticalAlignment="Top" Height="37" Width="197" FontSize="20"/>
+        <Label Content="Плотность" HorizontalAlignment="Left" Margin="29,140,0,0" VerticalAlignment="Top" Height="37" Width="110" FontSize="20"/>
+        <TextBox x:Name="TbLength" HorizontalAlignment="Left" Margin="227,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="20" PreviewTextInput="TbLength_PreviewTextInput"/>
+        <TextBox x:Name="TbRadius" HorizontalAlignment="Left" Margin="227,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="20" PreviewTextInput="TbRadius_PreviewTextInput"/>
+        <TextBox x:Name="TbInternalRadius" HorizontalAlignment="Left" Margin="226,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="20" PreviewTextInput="TbInternalRadius_PreviewTextInput"/>
+        <TextBox x:Name="tbDensity" HorizontalAlignment="Left" Margin="227,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="20" PreviewTextInput="tbDensity_PreviewTextInput"/>
+        <Button x:Name="BtResult" Content="Вычислить" HorizontalAlignment="Left" Margin="114,196,0,0" VerticalAlignment="Top" FontSize="20" Width="172" Click="BtResult_Click"/>
+
+    </Grid>
+</Window>
